@@ -31,8 +31,25 @@ void question_2() {
 	std::cout << "휴대폰 번호: " << phone_number << std::endl;
 };
 
+
+/*
+* 문제 3.
+* 숫자 하나를 입력 받아서 그 숫자에 해당하는 구구단을 출력하는 프로그램을 작성해 보자.
+* 예를 들어 사용자가 5를 입력한다면 구구단에서 5단을 출력해야한다.
+*/
+void question_3() {
+	int gugu;
+
+	std::cin >> gugu;
+
+	for (int num = 1; num <= gugu; num++) {
+		std::cout << gugu << " * " << num << " = " << gugu * num << std::endl;
+	}
+};
+
 int main() {
 	question_1();
 	question_2();
+	question_3();
 	return 0;
 }

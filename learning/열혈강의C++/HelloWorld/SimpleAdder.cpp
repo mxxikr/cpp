@@ -13,5 +13,9 @@ int main(void)
 	double result = val1 + val2;
 	std::cout << "µ¡¼À °á°ú: " << result << std::endl;
 
+	char str[100];
+	std::cin >> str;
+	std::cout << "ÀÔ·Â ¹®ÀÚ¿­: " << str;
+
 	return 0;
 }

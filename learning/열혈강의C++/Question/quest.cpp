@@ -6,7 +6,7 @@
 
 #include <iostream>
 
-int main() {
+void question_1() {
 	int val1, val2, val3, val4, val5;
 
 	std::cin >> val1 >> val2 >> val3 >> val4 >> val5;
@@ -17,6 +17,9 @@ int main() {
 	std::cout << "5번째 정수 입력: " << val5 << std::endl;
 
 	std::cout << "합계: " << val1 + val2 + val3 + val4 + val5 << std::endl;
-	
+};
+
+int main() {
+	question_1();
 	return 0;
 }

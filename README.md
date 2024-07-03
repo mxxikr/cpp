@@ -8,5 +8,5 @@ cpp 그룹 스터디 실습 코드
 
 </br>
 
-# 📂 홍정모CPP
+# 📂 따라하며배우는C++
 [홍정모의 따라하며 배우는 C++](https://www.inflearn.com/course/following-c-plus) 실습 코드 정리

@@ -21,5 +21,11 @@
     <ClCompile Include="main_1_7_ex.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="main_1_7_localCount.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main_1_7_globalCount.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

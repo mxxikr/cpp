@@ -27,7 +27,7 @@ void printHelloWorld() { // return할 값이 없을 경우 void 사용
 	return;
 }
 
-int main_1()
+int main()
 {
 	cout << multiplyTwoNumbers(1, 2) << endl; // argrument(인자) 입력
 	cout << multiplyTwoNumbers(3, 4) << endl;

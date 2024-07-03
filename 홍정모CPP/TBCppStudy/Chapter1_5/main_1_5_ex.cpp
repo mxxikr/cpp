@@ -25,7 +25,7 @@ int calculator(int x, int y, std::string z) {
 	std::cout << x << " " << z << " " << y << " = " << result << std::endl;
 }
 
-int main() {
+int main_ex() {
 	calculator(1, 2, "+");
 	calculator(3, 4, "-");
 	calculator(8, 13, "*");

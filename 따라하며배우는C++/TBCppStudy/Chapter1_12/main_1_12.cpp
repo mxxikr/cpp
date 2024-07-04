@@ -1,10 +1,10 @@
 #include <iostream>
-#include "add.h"
+#include "my_work.h"
 
 using namespace std;
 
 int main()
 {
-	cout << add(1, 2) << endl;
+	doSomething();
 	return 0;
 }

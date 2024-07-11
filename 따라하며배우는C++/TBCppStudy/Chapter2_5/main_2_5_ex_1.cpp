@@ -9,7 +9,7 @@
 * 0.0000000001
 * 234560000.000
 */
-int main_ex()
+int main_ex_1()
 {
 	using namespace std;
 	

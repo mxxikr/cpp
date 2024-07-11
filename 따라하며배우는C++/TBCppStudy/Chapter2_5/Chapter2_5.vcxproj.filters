@@ -24,7 +24,10 @@
     <ClCompile Include="main_2_5_3.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="main_2_5_ex.cpp">
+    <ClCompile Include="main_2_5_ex_1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main_2_5_ex_2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

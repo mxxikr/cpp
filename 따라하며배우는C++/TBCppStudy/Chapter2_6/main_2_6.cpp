@@ -14,7 +14,7 @@ bool isEqual(int a, int b)
 	return result;
 }
 
-int main_()
+int main()
 {
 	using namespace std;
 

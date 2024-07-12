@@ -11,7 +11,7 @@ bool isEven(int a)
 		return false;
 }
 
-int main()
+int main_ex()
 {
 	std::cout << std::boolalpha;
 	std::cout << isEven(10) << std::endl;

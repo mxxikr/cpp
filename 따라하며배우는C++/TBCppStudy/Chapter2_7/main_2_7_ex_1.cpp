@@ -21,7 +21,7 @@ std::string intToHex(int i)
 	return ss.str(); // 스트림에 있는 문자열을 반환
 }
 
-int main_ex() {
+int main_ex_1() {
 	using namespace std;
 
 	// 0 ~ 127까지 전부 출력

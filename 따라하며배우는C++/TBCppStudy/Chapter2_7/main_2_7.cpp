@@ -42,15 +42,15 @@ int main()
 	cin >> c3; // 버퍼에 남아있는 글자가 없어서 입력 대기
 	cout << c3 << " " << static_cast<int>(c3) << endl;
 
-	// escape sequence : 특수한 문자를 출력할 때 사용
 	cout << sizeof(char) << endl;
-	cout << (int)std::numeric_limits<char>::max() << endl; // 모든 아스키 캐릭터가 모든 아스키 문자를 화면에 출력할 수 없음
+	cout << (int)std::numeric_limits<char>::max() << endl;
 	cout << (int)std::numeric_limits<char>::lowest() << endl;
 
 	cout << sizeof(unsigned char) << endl; // 양수 값만 표현할 수 있음
 	cout << (int)std::numeric_limits<unsigned char>::max() << endl;
 	cout << (int)std::numeric_limits<unsigned char>::lowest() << endl;
 
+	// escape sequence : 특수한 문자를 출력할 때 사용
 	// \n : 줄바꿈 문자, endl : 줄바꿈과 동시에 cout 버퍼에 있는 것을 전부 출력
 	cout << "This is first line \nThis is second line" << endl;
 	cout << "This is first line " << endl;
